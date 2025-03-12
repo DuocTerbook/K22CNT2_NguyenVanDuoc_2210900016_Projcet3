@@ -58,7 +58,7 @@ JdbcTemplate template;
 	            e.setNvdHinhAnh(rs.getString("nvdHinhAnh"));
 	            e.setNvdNgayNhap(rs.getString("nvdNgayNhap"));
 	            e.setNvdDVT(rs.getString("nvdDVT"));
-	            e.setNvdDonGia(rs.getFloat("nvdDonGia"));
+	            e.setNvdDonGia(rs.getDouble("nvdDonGia"));
 	            return e;
 	        }
 	    });

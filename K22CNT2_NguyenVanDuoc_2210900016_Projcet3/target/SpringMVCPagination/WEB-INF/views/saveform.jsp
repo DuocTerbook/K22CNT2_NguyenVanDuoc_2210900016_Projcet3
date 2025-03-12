@@ -44,7 +44,7 @@
 
 <div class="form-container">
     <h1>Them san pham</h1>
-    <form:form method="post" action="/SpringMVCPagination/save">
+    <form:form method="post" action="/SpringMVCPagination/save" >
         <table>
             <tr>
                 <td><b>Ten SP :</b></td>

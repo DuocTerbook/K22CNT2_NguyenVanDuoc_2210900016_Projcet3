@@ -1,4 +1,7 @@
 eclipse.preferences.version=1
 encoding//src/main/webapp/WEB-INF/views/edit.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/nhanvien/edit.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/nhanvien/save.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/nhanvien/view.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/saveform.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/viewform.jsp=UTF-8

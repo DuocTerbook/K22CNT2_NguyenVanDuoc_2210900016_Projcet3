@@ -9,6 +9,6 @@
 <body>
     <h1>Thanh toán thành công!</h1>
     <p>Cảm ơn bạn đã mua hàng. Đơn hàng của bạn đang được xử lý.</p>
-    <a href="/">Quay lại trang chủ</a>
+    <a href="index.jsp">Quay lại trang chủ</a>
 </body>
 </html>

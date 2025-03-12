@@ -61,6 +61,7 @@
         
         <a href="saveform" class="button">Them san pham</a>
         <a href="viewform" class="button">Xem them</a>
+         <a href="nhanvien/view" class="button">Thong tin nhan vien</a>
         <a href="<%= request.getContextPath() %>/admin/login" class="button">Dang nhap</a>
     </div>
     

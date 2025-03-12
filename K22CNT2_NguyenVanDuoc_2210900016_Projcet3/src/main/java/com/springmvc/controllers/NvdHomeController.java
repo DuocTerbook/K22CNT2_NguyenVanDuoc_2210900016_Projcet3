@@ -25,9 +25,8 @@ public class NvdHomeController {
 
     @Autowired
     NvdSanPhamDao dao; // DAO xử lý sản phẩm
-    
+    @Autowired
     NvdKhachHangDao khachHangDao;
-    
    
     // ======== 1️⃣ GIỎ HÀNG ========
 

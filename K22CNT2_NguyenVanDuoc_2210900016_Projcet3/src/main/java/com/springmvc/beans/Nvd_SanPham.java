@@ -8,7 +8,7 @@ public class Nvd_SanPham {
     private String NvdHinhAnh;
     private String NvdNgayNhap;
     private String NvdDVT;
-    private Float NvdDonGia;
+    private Double NvdDonGia;
 
 
 	/**
@@ -37,7 +37,7 @@ public class Nvd_SanPham {
 	 * @param nvdDonGia
 	 */
 	public Nvd_SanPham( String nvdTenSP, int nvdSoLuong, String nvdHinhAnh, String nvdNgayNhap, String nvdDVT,
-			Float nvdDonGia) {
+			Double nvdDonGia) {
 		super();
 		NvdTenSP = nvdTenSP;
 		NvdSoLuong = nvdSoLuong;
@@ -121,13 +121,13 @@ public class Nvd_SanPham {
 	/**
 	 * @return the nvdDonGia
 	 */
-	public Float getNvdDonGia() {
+	public Double getNvdDonGia() {
 		return NvdDonGia;
 	}
 	/**
 	 * @param nvdDonGia the nvdDonGia to set
 	 */
-	public void setNvdDonGia(Float nvdDonGia) {
+	public void setNvdDonGia(Double nvdDonGia) {
 		NvdDonGia = nvdDonGia;
 	}
 }

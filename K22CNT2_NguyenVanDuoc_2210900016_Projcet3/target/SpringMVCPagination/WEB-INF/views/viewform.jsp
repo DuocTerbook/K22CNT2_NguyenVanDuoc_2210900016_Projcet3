@@ -67,7 +67,7 @@
                     <c:param name='ngayNhap' value='${nvd_sanpham.nvdNgayNhap}'/>
                     <c:param name='dvt' value='${nvd_sanpham.nvdDVT}'/>
                     <c:param name='donGia' value='${nvd_sanpham.nvdDonGia}'/>
-                </c:url>">Mua</a>
+                </c:url>">Them do gio hang</a>
 			</td>
             <td><a href="sua/${nvd_sanpham.id}">Edit</a></td>
             <td><a href="xoa/${nvd_sanpham.id}">Delete</a></td>

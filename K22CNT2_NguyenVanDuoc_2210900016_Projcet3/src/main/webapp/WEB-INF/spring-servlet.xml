@@ -22,4 +22,13 @@
 	<bean id="dao" class="com.springmvc.dao.NvdSanPhamDao">
 		<property name="template" ref="jt" />
 	</bean>
+	<bean id="quantridao" class="com.springmvc.dao.NvdQuanTriDao">
+		<property name="template" ref="jt" />
+	</bean>
+	<bean id="khachHangDao" class="com.springmvc.dao.NvdKhachHangDao">
+		<property name="template" ref="jt" />
+	</bean>
+	<bean id="nhanviendao" class="com.springmvc.dao.NvdNhanVienDao">
+		<property name="template" ref="jt" />
+	</bean>
 </beans>
