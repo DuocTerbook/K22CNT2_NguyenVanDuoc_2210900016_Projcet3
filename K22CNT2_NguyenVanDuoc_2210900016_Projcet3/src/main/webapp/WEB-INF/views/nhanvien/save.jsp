@@ -60,7 +60,7 @@
 <h1 class="title">Them Nhan Vien Moi</h1>
 
 <div class="form-container">
-    <form:form action="${pageContext.request.contextPath}/nhanvien/save" method="post" modelAttribute="command">
+   <form:form action="${pageContext.request.contextPath}/nhanvien/save" method="post" modelAttribute="command">
         <table class="form-table">
             <tr>
                 <td>Ten Nhan Vien:</td>

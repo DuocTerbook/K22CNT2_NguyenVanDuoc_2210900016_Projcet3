@@ -98,4 +98,5 @@
     </table>
     <br />
     <a href="save" class="add-button">Them Nhan Vien Moi</a>
+    <a href="http://localhost:8080/SpringMVCPagination/index.jsp" class="">Quay Lai Trang chu</a>
 </div>

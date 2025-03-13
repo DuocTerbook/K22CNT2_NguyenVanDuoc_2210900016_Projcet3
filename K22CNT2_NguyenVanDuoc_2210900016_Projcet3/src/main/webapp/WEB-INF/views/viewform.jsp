@@ -78,5 +78,5 @@
 <div class="button-container">
     <a href="saveform">Them san pham</a>
     <a href="giohang">Gio hang</a>
-    <a href="index.jsp">Back</a>
+    <a href="index.jsp">Quay ve trang chu</a>
 </div>

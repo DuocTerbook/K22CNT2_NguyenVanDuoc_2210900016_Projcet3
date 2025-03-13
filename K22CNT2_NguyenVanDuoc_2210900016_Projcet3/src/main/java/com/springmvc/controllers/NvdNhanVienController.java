@@ -16,7 +16,7 @@ public class NvdNhanVienController {
     @Autowired  
     NvdNhanVienDao nhanviendao;
     
-    @GetMapping("/save")  
+    @GetMapping("/nhanvien/save")  
     public String showForm(Model m){  
         m.addAttribute("command", new Nvd_NhanVien());
         return "nhanvien/save"; 
@@ -35,14 +35,14 @@ public class NvdNhanVienController {
         return "nhanvien/view";  
     }  
     
-    @RequestMapping(value="/editnhanvien/{id}")  
+    @RequestMapping(value="/nhanvien/editnhanvien/{id}")  
     public String edit(@PathVariable int id, Model m){  
         Nvd_NhanVien nv = nhanviendao.getNhanVienById(id);  
         m.addAttribute("command", nv);
         return "nhanvien/edit";  
     }  
     
-    @RequestMapping(value="/editnhanvien", method = RequestMethod.POST)  
+    @RequestMapping(value="/nhanvien/editnhanvien", method = RequestMethod.POST)  
     public String editSave(@ModelAttribute("nhanvien") Nvd_NhanVien nv){  
     	nhanviendao.update(nv);  
         return "redirect:/nhanvien/view";  

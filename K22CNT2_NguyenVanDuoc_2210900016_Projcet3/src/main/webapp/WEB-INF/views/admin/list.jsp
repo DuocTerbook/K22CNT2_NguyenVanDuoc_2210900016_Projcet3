@@ -3,13 +3,47 @@
 <html>
 <head>
     <title>Danh sách Admin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid black;
+            width: 80%;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
     <h2>Danh sách Admin</h2>
 
     <p><a href="add">Thêm Admin mới</a> | <a href="logout">Đăng xuất</a></p>
 
-    <table border="1">
+    <table>
         <tr>
             <th>ID</th>
             <th>Tài khoản</th>

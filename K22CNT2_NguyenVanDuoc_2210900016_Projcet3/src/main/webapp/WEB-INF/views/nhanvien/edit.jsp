@@ -57,30 +57,31 @@
     }
 </style>
 
-<h1 class="title">Edit Employee</h1>
+<h1 class="title">Sua Nhan Vien</h1>
 
 <div class="form-container">
-    <form:form method="POST" action="/SpringMVCPagination/editnhanvien">
+    <form:form modelAttribute="command" method="POST" action="/SpringMVCPagination/nhanvien/editnhanvien">
+
         <table class="form-table">
             <tr>
                 <td></td>
                 <td><form:hidden path="id" /></td>
             </tr>
             <tr>
-                <td>Employee Name:</td>
+                <td>Ten NV:</td>
                 <td><form:input path="nvdTenNV" /></td>
             </tr>
             <tr>
-                <td>Position:</td>
+                <td>Chuc vu</td>
                 <td><form:input path="nvdChucVu" /></td>
             </tr>
             <tr>
-                <td>Salary:</td>
+                <td>Luong</td>
                 <td><form:input path="nvdLuong" /></td>
             </tr>
             <tr>
                 <td></td>
-                <td><input type="submit" value="Edit Save" class="submit-btn" /></td>
+                <td><input type="submit" value="Luu Nhan Vien" class="submit-btn" /></td>
             </tr>
         </table>
     </form:form>
