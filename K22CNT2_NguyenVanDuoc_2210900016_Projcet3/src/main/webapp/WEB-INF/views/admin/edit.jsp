@@ -63,16 +63,16 @@
         <form action="../update" method="post">
             <input type="hidden" name="id" value="${admin.id}">
 
-            <label for="nvd_TaiKhoan">Tài khoản:</label>
-            <input type="text" id="nvd_TaiKhoan" name="nvd_TaiKhoan" value="${admin.nvd_TaiKhoan}" required>
+            <label for="nvdTaiKhoan">Tài khoản:</label>
+            <input type="text" id="nvdTaiKhoan" name="nvdTaiKhoan" value="${admin.nvdTaiKhoan}" required>
 
-            <label for="nvd_MatKhau">Mật khẩu mới:</label>
-            <input type="password" id="nvd_MatKhau" name="nvd_MatKhau">
+            <label for="nvdMatKhau">Mật khẩu mới:</label>
+            <input type="password" id="nvdMatKhau" name="nvdMatKhau">
 
-            <label for="nvd_TrangThai">Trạng thái:</label>
-            <select id="nvd_TrangThai" name="nvd_TrangThai">
-                <option value="true" ${admin.nvd_TrangThai ? "selected" : ""}>Hoạt động</option>
-                <option value="false" ${!admin.nvd_TrangThai ? "selected" : ""}>Khóa</option>
+            <label for="nvdTrangThai">Trạng thái:</label>
+            <select id="nvdTrangThai" name="nvdTrangThai">
+                <option value="true" ${admin.nvdTrangThai ? "selected" : ""}>Hoạt động</option>
+                <option value="false" ${!admin.nvdTrangThai ? "selected" : ""}>Khóa</option>
             </select>
 
             <button type="submit">Cập nhật</button>
